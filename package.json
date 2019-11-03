@@ -1,0 +1,27 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "Component prototypes for vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "keywords": [
+    "vue",
+    "components"
+  ],
+  "author": "Adam Ouhrabka",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/vue": "^5.2.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
